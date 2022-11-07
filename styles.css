@@ -12,6 +12,7 @@ body {
   justify-content: center;
   height: 100vh;
   overflow: hidden;
+  background-color: cadetblue;
 }
 
 .container {
@@ -29,7 +30,7 @@ body {
   flex: 0.5;
   margin: 10px;
   position: relative;
-  -webkit-transition: flex 0.7s ease-in;
+  transition: flex 0.7s ease-in;
 }
 
 .panel h3 {
